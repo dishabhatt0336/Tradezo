@@ -32,7 +32,7 @@ function CreateTicket() {
         </div>
         <div className="col-4 p-5 mt-2 mb-2">
           <h4 className="">
-            <i class="fa fa-plus-circle" aria-hidden="true"></i> Your Zerodha Account
+            <i class="fa fa-plus-circle" aria-hidden="true"></i> Your Tradezo Account
           </h4>
           <a href="" style={{ textDecoration: "none", lineHeight: "2.5" }}>
             Your Profile

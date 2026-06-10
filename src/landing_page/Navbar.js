@@ -3,13 +3,13 @@ import React from "react";
 function Navbar() {
   return (
     <nav
-      className="navbar navbar-expand-lg border-bottom"
+      className="navbar navbar-expand-lg m-0 p-0 border-bottom"
       style={{ backgroundColor: "#FFF" }}
     >
-      <div className="container p-2">
+      <div className="container p-0">
         <a className="navbar-brand" href="/">
           <img
-            src="media/images/logo.svg"
+            src="media/images/tradezoLogo.png"
             style={{ width: "25%" }}
             alt="Logo"
           />
@@ -29,27 +29,27 @@ function Navbar() {
           <form className="d-flex" role="search">
             <ul className="navbar-nav mb-lg-0">
               <li className="nav-item">
-                <a className="nav-link active" aria-current="page" href="/signup">
+                <a className="nav-link active fs-5" aria-current="page" href="/signup">
                   Signup
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/about">
+                <a className="nav-link active fs-5" href="/about">
                   About
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/product">
+                <a className="nav-link active fs-5" href="/product">
                   Product
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/pricing">
+                <a className="nav-link active fs-5" href="/pricing">
                   Pricing
                 </a>
               </li>
               <li className="nav-item">
-                <a className="nav-link active" href="/support">
+                <a className="nav-link active fs-5" href="/support">
                   Support
                 </a>
               </li>
